@@ -1,0 +1,252 @@
+body{
+    /* padding: 0px 30px; */
+    background-color: #f2f2f2;
+}
+
+.logo{
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+.nav-item a:hover {
+    background-color: cadetblue;
+}
+
+.write{
+    font-size: 50px;
+}
+
+.col-5{
+    padding: 0px;
+}
+.col-7{
+    padding: 0px;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.para1 p{
+    width: 30px; 
+    height: 30px; 
+    background-color: grey; 
+    margin: 12px 5px;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+}
+
+.image img{
+    padding: 30px;
+    width: 100%;
+    height: 570px;
+    opacity: 0.7;
+}
+
+
+.image p{
+    position: absolute;
+    top: 100px;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ans{
+    width: 300px; 
+    height: 150px; 
+    margin: 30px;
+}
+
+.carousel-control-prev-icon{
+    width: 50px;
+    height: 30px;
+}
+
+.carousel-control-next-icon{
+    width: 50px;
+    height: 30px;
+}
+
+.para{
+    width: 40%;
+    margin: 10px auto;
+}
+
+.form-control{
+    width: 40%; margin: 0 auto;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .line{
+      background-color: red; 
+      width: 50px;
+      height: 3px;
+    }
+
+
+@media only screen and (max-width: 1235px){
+    .three{
+        display: none;
+    }
+}
+ 
+
+  @media only screen and (max-width: 1000px){
+        #contain{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
+
+        .ans{
+            width: 100%; 
+            height: auto; 
+            margin: 10px;
+        }
+
+       
+  }
+
+@media only screen and (max-width: 767px){
+   
+
+    .add{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-toggler-icon{
+        background-color:black;
+    }
+
+    .col-5{
+        padding: 0px;
+        max-width: 100%;
+    }
+    .col-7{
+        margin-top: 10px;
+        padding: 0px;
+        max-width: 100%;
+    }
+    .look{
+        margin:10px 0px;
+    }
+
+    .para1 p{
+        width: 20px; 
+        height: 20px; 
+        background-color: grey; 
+        margin: 12px 5px;
+    }
+
+    .para {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .call{
+        display: none;
+    }
+
+    .form-control{
+        width: 80%; margin: 0 auto;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image img{
+        padding: 0px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 370px;
+        opacity: 0.7;
+    }
+
+    .image p{
+        position: absolute;
+        top: 60px;
+        padding: 50px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .mr-auto h1{
+        font-size: 20px;
+    }
+    #myBtn{
+        font-size: 17px;
+        padding: 05px;
+    }
+
+    
+  hr {
+    background-color: red; 
+    width: 50px;
+    margin: auto;
+  }
+
+  .line{
+    background-color: red; 
+    width: 50px;
+    margin: 0px auto;
+    height: 3px;
+  }
+   
+}
+
+@media only screen and (max-width: 560px){
+    .logo{
+        font-weight: bold; 
+        font-size: 25px;
+    }
+    
+    .nav-link{
+        font-size: 15px;
+    }
+    
+    .two{
+        display: none;
+    }
+
+    .write{
+        font-size: 30px;
+    }
+}
